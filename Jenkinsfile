@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Clonar o repositório') {
             steps {
-                git branch: 'main', url: 'https://github.com/beatrism/iu-cypress-2.git'
+                git branch: 'main', url: 'https://github.com/beatrism/iu-cypress.git'
             }
         }
 
